@@ -81,10 +81,20 @@ img.right_img {
   vertical-align : bottom;
 }
 
-.right_small_img {
+img.right_img:hover {
+  opacity : 0;
+}
+
+img.right_small_img {
   width : 50px;
   position: absolute;
 }
+
+img.right_small_img:hover {
+  opacity: 0;
+}
+
+
 
 .right_img_left_top {
   left    : -5px;
@@ -105,3 +115,4 @@ img.right_img {
   right   : -5px;
   bottom  : -5px;
 }
+
